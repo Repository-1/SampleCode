@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 
 import org.testng.annotations.Test;
-
+//
 public class ReadDataFromNotepad
 {
 	@Test
@@ -22,5 +22,6 @@ public class ReadDataFromNotepad
 			String[] words = line[i].split(" ");
 			System.out.println(words.length);	
 		}
+		System.out.println("done");
 	}
 }
