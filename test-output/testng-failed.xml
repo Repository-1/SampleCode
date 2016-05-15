@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="SeleniumConcept.WindowHandler_name">
+        <methods>
+          <include name="newTab"/>
+        </methods>
+      </class> <!-- SeleniumConcept.WindowHandler_name -->
+      <class name="SeleniumConcept.Keyword_driven_repo">
+        <methods>
+          <include name="TestOR"/>
+        </methods>
+      </class> <!-- SeleniumConcept.Keyword_driven_repo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
