@@ -9,7 +9,6 @@ public class TwoMaxNumbersWithOutSorting
 		int maxTwo = 0;
 		for (int i = 0; i < num.length; i++)
 		{
-
 			if(maxOne < num[i])
 			{
 				maxTwo = maxOne;

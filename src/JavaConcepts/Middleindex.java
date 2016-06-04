@@ -16,3 +16,4 @@ public class Middleindex
 		System.out.println("middle index " + count/2);
 	}
 }
+
